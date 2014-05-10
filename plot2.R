@@ -20,9 +20,8 @@ data$DateTime <- as.POSIXct(paste(data$Date, data$Time))
 png("plot2.png", width = 480, height = 480)
 #create the histogram 
 #with parrametros: 
-#we need two parameter data with datatime, global_active_power
+#we need two parameter data with datetime, global_active_power
 #main: that is the title of the chart 
-#col: the color of the bars 
 #ylab: y-axis title 
 #xlab: the title of the x axis
 plot(data$DateTime, data$Global_active_power, type="l", ylab= "Global Active Power(kilowatts) by masterins", xlab="")
