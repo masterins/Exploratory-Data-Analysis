@@ -24,5 +24,5 @@ png("plot1.png", width = 480, height = 480)
 #ylab: y-axis title 
 #xlab: the title of the x axis
 hist(data$Global_active_power, type="l", main="Global Active Power",col='red',ylab= "Frequency", xlab="Global Active Power(kilowatts)")
-# the dev.off function, the graph is saved in the file anteriormenteactivado
+# the dev.off function, the graph is saved in the file 
 dev.off()
